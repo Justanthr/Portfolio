@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+  color: purple;
+  font-family: "Kalam", serif;
+}
+div {
+  width: auto;
+  text-align: center;
+  padding: 15px;
+}
+img {
+  max-width: 30%;
+  height: 30%;
+  border: 5px solid blueviolet;
+}
