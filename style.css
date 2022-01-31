@@ -2,14 +2,33 @@ body {
   background-color: black;
   color: purple;
   font-family: "Kalam", serif;
-}
-div {
   width: auto;
   text-align: center;
   padding: 15px;
 }
-img {
+.self {
   max-width: 30%;
   height: 30%;
   border: 5px solid blueviolet;
+  border-radius: 15px;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+.pet-pics {
+  max-height: 80%;
+  max-width: 80%;
+  border: 5px solid blueviolet;
+  border-radius: 100%;
+}
+.projects-header {
+  padding-right: 5px;
+}
+.projects-button {
+  padding-left: 5px;
 }

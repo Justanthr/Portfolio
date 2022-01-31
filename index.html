@@ -14,26 +14,26 @@
     />
   </head>
   <body>
-    <div>
+    <div class="about-me">
       <h1>Jay Wilson</h1>
       <h2>Software Developer in Training</h2>
       <hr />
       <p>I'm learning programming because it's my dream</p>
       <h3><em> about me:</em></h3>
       <img
+        class="self"
         alt="Picture of me with cute makeup"
-        src="https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/269106220_3053500764897521_1254508189594717649_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=174925&_nc_ohc=SP9rw1JseAYAX9HHs8l&_nc_ht=scontent-iad3-2.xx&oh=00_AT87uZ3GWF_V2AR-th2or772lLnP63G4XFlzXxBrYQMwjg&oe=61ED3414"
+        src="/Pictures-portfolio/Self.PNG"
         <hr
       />
       <p>
-        My dad majored in Computer Science, so all of my childhood I watched him
-        get computers to do exactily what he wanted. A prime example of this
-        would be when he took a 1990s era laptop, that could
+        My dad majored in Computer Science, so all of my childhood I watched get
+        computers to do exactily what he wanted. A prime example of this would
+        be when he took a 1990s era laptop, that could
         <em>barely</em> load Chrome, running on Windows 7, and got it running
         Windows 10 smoothly, and quickly! He is a major insporation, and is the
         reason I am learning software development.
       </p>
-
       <p>
         My dream, if you don't already know, is to work for Nintendo. They were
         a huge part of my childhood; the first game console I played on was the
@@ -41,21 +41,37 @@
         product of what my parents would buy, game wise, but it made quite the
         impression.
       </p>
-
-      <h3>My Projects</h3>
-      <a
-        href="https://github.com/Justanthr/group-project/blob/master/index.html"
-        >group-project</a
-      >
-      <p><a href="https://github.com/Justanthr/Project-1">Project-1</a></p>
-      <a href="https://github.com/Justanthr/Project-2-catsndogs">Project-2</a>
-      <p><b>BONUS</b> picture of my puppy</p>
-      <p>
-        <img
-          src="https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-9/s851x315/46519495_2206106262970313_645701513515106304_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=da31f3&_nc_ohc=hz15FpHMuKwAX93R845&tn=Vh1C5-eH2SiLGSHE&_nc_ht=scontent-iad3-2.xx&oh=00_AT9b5A2CHJ4lUSVU7OYvK-oDstQxyzZw0qnnhDFXdln1TQ&oe=621080ED"
-          alt="Picture of my Rosie pup, in a Pikachu costume"
-        />
-      </p>
+      <div class="my-projects"></div>
     </div>
+    <div class="bonus">
+      <h2><b>BONUS</b> pictures of my pets</h2>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img
+          class="pet-pics"
+          src="./Pictures-portfolio/Merlin.PNG"
+          alt="Picture of my dog Merlin"
+        />
+        <h2>Grand Wizard Merlin</h2>
+      </div>
+      <div class="column">
+        <img
+          class="pet-pics"
+          src="./Pictures-portfolio/Arthur.PNG"
+          alt="Picture of my cat Arthur"
+        />
+        <h2>King Arthur</h2>
+      </div>
+      <div class="column">
+        <img
+          class="pet-pics"
+          src="./Pictures-portfolio/Guen.PNG"
+          alt="Picture of my cat Guen"
+        />
+        <h2>Queen Guinevere</h2>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
