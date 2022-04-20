@@ -1,28 +1,79 @@
 body {
-  background-color: black;
-  color: purple;
   font-family: "Kalam", serif;
-  width: auto;
+}
+
+ul {
   text-align: center;
-  padding: 15px;
 }
-.self {
-  max-width: 30%;
-  height: 30%;
-  border: 5px solid blueviolet;
-  border-radius: 15px;
+
+nav li {
+  display: inline;
 }
-.row {
+
+nav a {
+  text-decoration: none;
+  color: blueviolet;
+  font-size: 4vh;
+  padding: 0 3vw;
+}
+
+#self {
+  width: 40vw;
+  height: auto; 
+}
+
+#general {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.column {
-  flex: 1;
-  padding: 10px;
+
+#quote {
+  font-size: 4vh;
+  padding: 5vh 4vw;
+}
+
+#me h3 {
+  position: relative;
+  bottom: 3vh;
+}
+
+video {
+  max-height: 75vh;
+}
+
+.prj-li {
+display: flex;
+font-size: 3vh;
+text-decoration: none;
+color: white;
+padding: 3vh 0;
+}
+
+#prj-a {
+  width: 4vw;
+  height: 1vh;
+}
+
+#prj-a :hover {
+  color: blueviolet;
+}
+
+#prj-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3vw;
+}
+
+#prj-p {
+  padding: 3vw;
+}
+
+#map-img {
+  width: 50vw;
+}
+
+.other p {
   text-align: center;
-}
-.pet-pics {
-  max-height: 80%;
-  max-width: 80%;
-  border: 5px solid blueviolet;
-  border-radius: 100%;
 }
